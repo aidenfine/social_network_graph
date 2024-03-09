@@ -1,11 +1,11 @@
 import string
-from graph import Graph
+from models.graph import Graph
 import random
 from colorama import Fore, Back, Style
 import matplotlib.pyplot as plt
 import networkx as nx
-from helpers import reset_color
-from create_graph import create_graph
+from helpers.helpers import reset_color
+from helpers.create_graph import create_graph
 
 graph = Graph()
 
